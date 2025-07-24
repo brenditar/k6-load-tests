@@ -1,0 +1,35 @@
+# Node.js
+node_modules/
+package-lock.json
+
+# K6 binario local
+bin/k6
+k6.tar.gz
+k6-v*/ # descomprimido
+
+.DS_Store
+Thumbs.db
+
+*.env
+*.local
+.env*
+environments/*.env.json.local
+environments/*secret*.json
+results/*
+
+
+*.log
+*.out
+*.tmp
+
+.idea/
+.vscode/
+*.swp
+*.swo
+
+*.zip
+*.tar.gz
+
+# Backups
+*~
+*.bak

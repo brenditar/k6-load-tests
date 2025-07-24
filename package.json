@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "test:dev": "ENV=dev ./bin/k6 run test.js",
+    "test:staging": "ENV=staging ./bin/k6 run test.js",
+    "test:prod": "ENV=prod ./bin/k6 run test.js"
+  }
+}
